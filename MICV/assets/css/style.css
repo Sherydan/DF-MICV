@@ -1,0 +1,144 @@
+
+/* Reseteo de body para asi eliminar auto padding y margin */
+* {
+    padding: 0;
+    margin: 0;
+}
+/* eliminar bullet del estilo de las listas */
+ul{
+    list-style-type: none;
+}
+
+/* usar bordes en tablas para asi dejar en claro que se trata de una */
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+/* font a usar en todo el documento */
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+/* todas las secciones usan flexbox, primitivo y rasca pero es algo */
+.mainHeader{
+    padding: 0.4rem;
+    margin: 0.5rem;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+.mainHeader > .boxProfilepic{
+    text-align: end;
+}
+
+.boxName{
+    width: 100%;
+}
+
+.profilePic{
+    width: 20%;
+}
+
+.contact{
+    padding: 0.4rem;
+    margin: 0.5rem;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(232, 236, 236);
+}
+
+.experience{
+    display: flex;
+    flex-direction: column;
+    padding: 0.4rem;
+    margin: 0.5rem;
+    background-color: rgb(232, 236, 236);
+}
+
+.experience > div{
+    margin: 0.5rem;
+}
+
+.degrees{
+    display: flex;
+    flex-direction: column;
+    padding: 0.4rem;
+    margin: 0.5rem;
+    background-color: rgb(232, 236, 236);
+
+}
+
+.degrees > div{
+    margin: 0.5rem;
+}
+
+.knowledge{
+    display: flex;
+    flex-direction: column;
+    padding: 0.4rem;
+    margin: 0.5rem;
+    background-color: rgb(232, 236, 236);
+}
+
+.knowledge > div{
+    margin: 0.5rem;
+}
+
+
+.social{
+    display: flex;
+    flex-direction: column;
+    padding: 0.4rem;
+    margin: 0.5rem;
+    background-color: rgb(232, 236, 236);
+}
+
+.social > div{
+    margin: 0.5rem;
+}
+
+.portfolio{
+    display: flex;
+    flex-direction: column;
+    padding: 0.4rem;
+    margin: 0.5rem;
+    background-color: rgb(232, 236, 236);
+}
+
+.portfolio > div{
+    margin: 0.5rem;
+}
+
+.portfolioContainer{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 0.4rem;
+    margin: 0.5rem;
+    background-color: rgb(232, 236, 236);
+}
+
+.portfolioContainer > table * {
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+
+.portfolioTable{
+    border: 1px solid black;
+}
+
+.cvScreen{
+    width: 50%;
+}
+
+
+
+
+
+
